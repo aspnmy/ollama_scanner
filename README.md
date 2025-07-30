@@ -1,4 +1,4 @@
-# Ollama Scanner 节点扫描工具使用说明-dev_WebUI
+# MCP_Ollama_Scanner_server 节点扫描工具使用说明
 
 ![Ollama Scanner](images/README/1739551751297.png)
 
@@ -8,6 +8,7 @@
 
 - 一个用于局域网扫描 Ollama Scanner 节点的工具，具备自动执行性能测试并将结果导出到 CSV 文件的功能。它借助 zmap 工具来扫描 IP 地址，同时对每个 IP 地址上的 Ollama 服务进行检查，获取模型信息并开展性能测试。
 - 也可以用于嗅探公网IP中是否具有Ollama服务
+- 分支MCP_Ollama_Scanner,重构业务，提供MCP基础服务，为模型提供对接业务。通用性，可和标准MCP服务进行对接
 
 ## 使用方法
 
